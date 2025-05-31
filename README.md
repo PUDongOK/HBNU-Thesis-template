@@ -4,3 +4,10 @@ I would like to thank my collaborator **Mian Mao** for her help in modifying the
 My classmate Mao Mian used WinEdt+Texstudio to compile and generate .pdf files. I am lazy and directly use Overleaf-Xelatex online editing. There are slight differences between the two.
 
 References using national standards"gbt7714-numerical-mod.bst".
+
+
+
+\body  论文内容撰写、封面等存档
+\figures 论文图片
+\ref 参考文献
+main.tex 论文整体章节编辑
