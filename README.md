@@ -17,3 +17,6 @@ References using national standards"gbt7714-numerical-mod.bst".
 
 
 main.tex 论文整体章节编辑
+
+
+我们的qq群：1049474413
