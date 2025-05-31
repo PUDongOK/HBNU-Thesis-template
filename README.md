@@ -8,6 +8,12 @@ References using national standards"gbt7714-numerical-mod.bst".
 
 
 \body  论文内容撰写、封面等存档
+
+
 \figures 论文图片
+
+
 \ref 参考文献
+
+
 main.tex 论文整体章节编辑
