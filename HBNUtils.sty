@@ -1,0 +1,41 @@
+\ProvidesPackage{HBNUtils}[2006/03/27 2.2 any packages you would
+like to use]
+
+
+% ²»Í¬ÓÚ~|\mathcal| or |\mathfrak| Ö®ÀàµÄÓ¢ÎÄ»¨Ìå×ÖÌå
+%\RequirePackage{mathrsfs}
+
+
+% È·¶¨¸¡¶¯¶ÔÏóµÄÎ»ÖÃ£¬¿ÉÒÔÊ¹ÓÃ~H£¬Ç¿ÖÆ½«¸¡¶¯¶ÔÏó·Åµ½ÕâÀï£¨¿ÉÄÜÐ§¹ûºÜ²î£©
+%\RequirePackage{float}
+
+
+% ¸¡¶¯Í¼ÐÎ¿ØÖÆºê°ü¡£
+% ÔÊÐíÉÏÒ»¸ö~section µÄ¸¡¶¯Í¼ÐÎ³öÏÖÔÚÏÂÒ»¸ö~section µÄ¿ªÊ¼²¿·Ö
+% ¸Ãºê°üÌá¹©´¦Àí¸¡¶¯¶ÔÏóµÄ~|\FloatBarrier| ÃüÁî£¬Ê¹ËùÓÐÎ´´¦
+% ÀíµÄ¸¡¶¯Í¼ÐÎÁ¢¼´±»´¦Àí¡£ÕâÈý¸öºê°ü½ö¹©²Î¿¼£¬Î´±ØÊ¹ÓÃ£º
+ % \RequirePackage[below]{placeins}
+ % \RequirePackage{floatflt} % Í¼ÎÄ»ìÅÅÓÃºê°ü
+ % \RequirePackage{rotating} % Í¼ÐÎºÍ±í¸ñµÄ¿ØÖÆÐý×ª
+
+
+% ±í¸ñ
+%\RequirePackage{multirow}
+\RequirePackage{longtable}
+% ±í¸ñÖÐµÄ×ÖÌå±ÈÕýÎÄÐ¡°ëºÅ£¬Îª´óÎåºÅ£¬11pt£¬Í¬Ê±±í¸ñÖÐµÄÐÐ¾àÎª 1.4 ±¶ÐÐ¾à
+\let\HUST@longtable\longtable
+\renewcommand\longtable{\dawu[1.4]\HUST@longtable}
+\let\endHUST@longtable\endlongtable
+
+\RequirePackage[all]{xy}
+\RequirePackage{overpic}
+%\RequirePackage{psfrag}
+
+% ¸ø×Ô¶¨ÒåµÄºêºóÃæ×Ô¶¯¼Ó¿Õ°×
+% \RequirePackage{xspace}
+
+
+% ¶¨Òå×Ô¼º³£ÓÃµÄ¶«Î÷
+%\newcommand{\china}{ÖÐ»ªÈËÃñ¹²ºÍ¹ú}
+
+\endinput
